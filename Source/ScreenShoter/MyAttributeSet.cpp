@@ -4,6 +4,10 @@
 
 UMyAttributeSet::UMyAttributeSet()
 {
+    MoveSpeed = 600.0f;
+    InitHealth(100.0f);
+    InitStamina(100.0f);
+    InitMaxStamina(100.0f);
 }
 
 void UMyAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data)
